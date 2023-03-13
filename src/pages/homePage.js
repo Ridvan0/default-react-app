@@ -1,10 +1,10 @@
 import React, {Component} from "react";
-
+import app from "../base";
 class HomePage extends Component{
     render() {
         return (
             <div>
-                <span>test</span>
+               <button onClick={() => app.auth().signOut()}>Sign out</button>
         
             </div>
         );

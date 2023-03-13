@@ -376,4 +376,8 @@ template {
   width: 100%;
   background-color: #FFFFFF;
   max-width: 400px;
+}
+
+span {
+  background-color: blue;
 }/*# sourceMappingURL=main.css.map */
